@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #497be7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.planta {
+    background-color: #8bc34a;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #390505;
+    margin: 20px;
+    display: inline-block;
+}
+
+.planta h2 {
+    margin-top: 0;
+}
+
+.planta .dados {
+    margin-bottom: 15px;
+}
+
+.planta .altura, .planta .frutas, .planta .uvas {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.clima {
+    background-color: #4CAF50;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #9b0b0b91;
+    margin: 20px;
+    display: inline-block;
+}
+
+.clima h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.clima label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.clima input {
+    width: 80px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #34bc39;
+    color: rgb(48, 17, 221);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}

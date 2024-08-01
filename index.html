@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulação de Plantação de Cenouras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simulação de Plantação</h1>
+
+        <div class="planta" id="canoureiros">
+            <h2>Cenoureiro</h2>
+            <div class="dados">
+                <div class="altura">Altura: <span id="alturacenoura">0</span> cm</div>
+                <div class="frutas">Cenoura produzidos: <span id="frutasMorango">0</span></div>
+            </div>
+            <button onclick="passarUmDia('Cenoura')">Passar um dia</button>
+        </div>
+
+        <div class="planta" id="parreira">
+            <h2>Parreira de Cenoura</h2>
+            <div class="dados">
+                <div class="altura">Altura: <span id="alturaCenoura">0</span> cm</div>
+                <div class="uvas">Cenoura Produzida: <span id="cenouraproduzida">0</span></div>
+            </div>
+            <button onclick="passarUmDia('uva')">Passar um dia</button>
+        </div>
+
+        <div class="clima">
+            <h2>Clima</h2>
+            <label for="temperatura">Temperatura (°C):</label>
+            <input type="number" id="temperatura" value="25">
+            <br>
+            <label for="umidade">Umidade (%):</label>
+            <input type="number" id="umidade" value="60">
+            <br>
+            <button onclick="simularClima()">Simular Clima</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+  <img src="images.jpeg"campo de morango e uva class="field-imagem">
+  <img src="cenoura-plantio-comercial.jpg"campo de cenoura class="field-imagem">
+  <!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Programação sobre Agricultura na Cidade</title>
+      <style>
+          body {
+              font-family: Arial, sans-serif;
+              line-height: 1.6;
+              margin: 20px;
+              max-width: 800px;
+              margin-left: auto;
+              margin-right: auto;
+              background-color: #f0f0f0;
+              padding: 20px;
+          }
+          h1 {
+              text-align: center;
+              color: #333;
+              margin-bottom: 20px;
+          }
+          h2 {
+              color: #666;
+              border-bottom: 1px solid #ccc;
+              padding-bottom: 5px;
+          }
+          ul {
+              list-style-type: none;
+              padding: 0;
+          }
+          li {
+              margin-bottom: 10px;
+          }
+          .day {
+              margin-top: 20px;
+              background-color: #fff;
+              padding: 15px;
+              border-radius: 8px;
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          }
+          .event {
+              margin-bottom: 15px;
+              padding-left: 20px;
+              position: relative;
+          }
+          .event-time {
+              position: absolute;
+              left: -20px;
+              top: 0;
+              background-color: #333;
+              color: #fff;
+              padding: 5px 10px;
+              border-radius: 5px 0 0 5px;
+          }
+      </style>
+  </head>
+  <body>
+      <h1>Programação sobre Agricultura na Cidade</h1>
+  
+      <div class="day">
+          <h2>Dia 1: Introdução à Agricultura Urbana</h2>
+          <ul>
+              <li class="event"><span class="event-time">08:00</span> Visita a uma Horta Comunitária</li>
+              <li class="event"><span class="event-time">10:30</span> Palestra sobre Agricultura Sustentável</li>
+              <li class="event"><span class="event-time">14:00</span> Oficina de Compostagem</li>
+          </ul>
+      </div>
+  
+      <div class="day">
+          <h2>Dia 2: Práticas Agrícolas na Cidade</h2>
+          <ul>
+              <li class="event"><span class="event-time">09:00</span> Visita a um Projeto de Agricultura Vertical</li>
+              <li class="event"><span class="event-time">11:30</span> Workshop de Cultivo em Pequenos Espaços</li>
+              <li class="event"><span class="event-time">15:00</span> Demonstração de Técnicas de Irrigação Eficiente</li>
+          </ul>
+      </div>
+  
+      <div class="day">
+          <h2>Dia 3: Mercado Agrícola e Gastronomia Local</h2>
+          <ul>
+              <li class="event"><span class="event-time">10:00</span> Tour pelo Mercado de Produtores Locais</li>
+              <li class="event"><span class="event-time">13:00</span> Degustação de Pratos Preparados com Ingredientes Locais</li>
+              <li class="event"><span class="event-time">16:00</span> Feira de Artesanato e Produtos Agrícolas</li>
+          </ul>
+      </div>
+  
+  </body>
+  </html>
